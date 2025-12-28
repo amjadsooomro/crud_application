@@ -10,10 +10,11 @@
 
 <body>
 
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12 ">
-
+       
 
                 <a href="insert.php"><button class="btn btn-success mt-5 mb-3 ">+Add Student</button></a>
                 <h1 class="text-center text-white bg-danger">::CRUD Application::</h1>

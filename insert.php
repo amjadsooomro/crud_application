@@ -11,7 +11,7 @@ if (isset($_POST['save'])) {
     $deppt_name = $_POST['deppt_name'];
     $age        = $_POST['age'];
 
-    if (!empty($_FILES['image']['name'])) {
+    if ($_FILES['image']['name']) {
 
         $fileName  = $_FILES['image']['name'];
         $fileTmp   = $_FILES['image']['tmp_name'];
